@@ -710,7 +710,6 @@ header .navigation {
   margin: 0;
   padding: 0;
   background: var(--white, #fff);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-list-item {
@@ -719,8 +718,9 @@ header .navigation {
 
 .project-img {
   display: block;
-  
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .project-img:hover,
 .project-img:focus {
