@@ -789,11 +789,11 @@ p {
 .project-img:focus .overlay {
   transform: translateY(0);
 }
-
+/* 
 .project-img {
   display: block;
   transition: box-shadow 250ms linear;
-}
+} */
 
 .project-img:hover,
 .project-img:focus {
